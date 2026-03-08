@@ -31,3 +31,65 @@ The model uses **MobileNetV2**, a lightweight deep learning architecture designe
 ---
 
 ## 🗂 Project Structure
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+git clone https://github.com/divyanshsharma25-bit/Plantcare-ai.git
+
+Move into the folder:
+cd Plantcare-ai
+
+Install dependencies:
+pip install flask tensorflow pillow numpy
+
+Run the application:
+python app.py
+
+Open in browser:
+http://127.0.0.1:5000
+
+
+---
+
+## 📊 Dataset
+
+Dataset used:
+
+**New Plant Diseases Dataset (Kaggle)**
+
+Contains:
+- 87,000+ images
+- 14 plant species
+- 38 disease classes
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- TensorFlow / Keras
+- MobileNetV2
+- Flask
+- HTML
+- CSS
+
+---
+
+## 📸 Demo
+
+Upload a plant leaf image and the model predicts:
+
+- Plant type
+- Disease name
+- Health status
+
+---
+
+## 👨‍💻 Author
+
+Project developed by:
+
+**Divyansh Sharma**
