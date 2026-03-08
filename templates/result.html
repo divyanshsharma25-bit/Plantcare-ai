@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<title>Prediction Result</title>
+<title>Result</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
 
-<div class="container">
+<div class="navbar">
+<div class="logo">🌿 PlantCare AI</div>
+</div>
 
-<h1>Analysis Result</h1>
+<h2 style="text-align:center;margin-top:40px;">
+Analysis Complete
+</h2>
 
-<img src="{{img}}">
+<div style="display:flex;justify-content:center;margin-top:40px;gap:40px;">
 
-<h2>{{result}}</h2>
+<img src="{{ url_for('static', filename='uploads/' + image_path) }}" width="300">
 
-<br>
+<div class="result-card">
 
-<a href="/upload">
-<button>Analyze Another Image</button>
-</a>
+<h3>{{ plant }}</h3>
 
-<br><br>
+{% if condition == "healthy" %}
+<p class="healthy">Healthy Plant</p>
+{% else %}
+<p class="disease">{{ condition }}</p>
+{% endif %}
 
-<a href="/">Back Home</a>
+</div>
 
+</div>
 </div>
 
 </body>

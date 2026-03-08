@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <title>PlantCare AI</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
@@ -8,23 +7,56 @@
 
 <body>
 
-<div class="container">
+<div class="navbar">
+<div class="logo">🌿 PlantCare AI</div>
 
-<h1>🌱 PlantCare AI</h1>
+<div>
+<a href="/">Home</a>
+<a href="/about">About</a>
+<a href="/upload">Get Started</a>
+</div>
+</div>
 
-<p>AI Powered Plant Disease Detection</p>
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>AI Powered <span>Plant Disease Detection</span></h1>
+
+<p>
+Protect your crops using artificial intelligence.
+Upload a leaf image and detect diseases instantly.
+</p>
 
 <a href="/upload">
-<button>Start Detection</button>
-</a>
-
-<br><br>
-
-<a href="/about">
-About This Project
+<button class="btn">Upload Image</button>
 </a>
 
 </div>
+
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+width="350">
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h3>⚡ Instant Detection</h3>
+<p>Detect diseases in seconds using AI</p>
+</div>
+
+<div class="card">
+<h3>🎯 High Accuracy</h3>
+<p>MobileNetV2 deep learning model</p>
+</div>
+
+<div class="card">
+<h3>📷 Easy to Use</h3>
+<p>Just upload a leaf image</p>
+</div>
+
+</section>
 
 </body>
 </html>
