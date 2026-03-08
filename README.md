@@ -150,7 +150,7 @@ These techniques improve model accuracy and prevent overfitting.
 
 # 👨‍💻 Author
 
-**Divyansh Sharma**
+**Divyansh Sharma** ,**Ruhani Wasson**,**Dhananjay**,**Neeraj**
 
 B.Tech Student
 AI / Machine Learning Enthusiast
